@@ -1,6 +1,6 @@
 from sqlalchemy.orm import declarative_base, relationship
 from sqlalchemy import Column, INTEGER, VARCHAR, ForeignKey
-# from alchemy.models.role_model import RoleModel
+from alchemy.models.bicycle_model import BicycleModel
 
 Base = declarative_base()
 
